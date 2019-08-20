@@ -1,0 +1,383 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "dear bot"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "that's right"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "affirm",
+        "text": "right, thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "great choice"
+      },
+      {
+        "intent": "affirm",
+        "text": "sounds really good"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "text": "end"
+      },
+      {
+        "intent": "goodbye",
+        "text": "farewell"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a good one"
+      },
+      {
+        "intent": "help",
+        "text": "help me, please."
+      },
+      {
+        "intent": "help",
+        "text": "Tell me how to ask you question, please."
+      },
+      {
+        "intent": "help",
+        "text": "help me with use the function."
+      },
+      {
+        "intent": "help",
+        "text": "How to use the function?"
+      },
+      {
+        "intent": "recommend",
+        "text": "Can you recommend me some dish ?"
+      },
+      {
+        "intent": "recommend",
+        "text": "give me some advice, please"
+      },
+      {
+        "intent": "recommend",
+        "text": "recommend some dish for me."
+      },
+      {
+        "intent": "recommend",
+        "text": "emmmm, I have no idea,  any advice?"
+      },
+      {
+        "intent": "recommend",
+        "text": "Can you give me any pointers?"
+      },
+      {
+        "intent": "recipes_search",
+        "text": "I want to learn cooking"
+      },
+      {
+        "intent": "recipes_search",
+        "text": "Can you teach me cook ?"
+      },
+      {
+        "intent": "recipes_search",
+        "text": "I am searching for some recipes"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "rice",
+            "entity": "food"
+          }
+        ],
+        "text": "I like rice."
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "lobster",
+            "entity": "food"
+          }
+        ],
+        "text": "I want to have lobster"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "fish",
+            "entity": "food"
+          }
+        ],
+        "text": "The food is fish"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "juice",
+            "entity": "food"
+          },
+          {
+            "start": 25,
+            "end": 34,
+            "value": "low-sugar",
+            "entity": "health"
+          }
+        ],
+        "text": "I'd like some juice, and low-sugar, please"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "soup",
+            "entity": "food"
+          },
+          {
+            "start": 16,
+            "end": 26,
+            "value": "vegetarian",
+            "entity": "health"
+          }
+        ],
+        "text": "I want soup, be vegetarian, please"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 29,
+            "value": "shellfish-free",
+            "entity": "health"
+          },
+          {
+            "start": 30,
+            "end": 36,
+            "value": "noodle",
+            "entity": "food"
+          }
+        ],
+        "text": "I want to cook shellfish-free noodle"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "soup",
+            "entity": "food"
+          }
+        ],
+        "text": "soup"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chicken",
+            "entity": "food"
+          }
+        ],
+        "text": "chicken"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "juice",
+            "entity": "food"
+          }
+        ],
+        "text": "juice"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "noddle",
+            "entity": "food"
+          }
+        ],
+        "text": "noodle"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "alcohol-free",
+            "entity": "health"
+          }
+        ],
+        "text": "alcohol-free"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "low-sugar",
+            "entity": "health"
+          }
+        ],
+        "text": "low-sugar"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "vegetarian",
+            "entity": "health"
+          }
+        ],
+        "text": "vegetarian"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "wheat-free",
+            "entity": "health"
+          }
+        ],
+        "text": "wheat-free"
+      },
+      {
+        "intent": "recipes_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "shellfish-free",
+            "entity": "health"
+          }
+        ],
+        "text": "shellfish-free"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      },
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "information",
+        "synonyms": [
+          "info",
+          "Info",
+          "knowledge",
+          "message",
+          "advice"
+        ]
+      }
+    ]
+  }
+}
